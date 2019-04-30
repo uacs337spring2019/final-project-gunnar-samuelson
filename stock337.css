@@ -1,0 +1,50 @@
+/*Gunnar Samuelson, CS 337, stock337.css
+This is where I have the alyout for this program and how everything is going to appear
+on the screen based on what browser or computer you are using. I used div ids mainly
+as my way of refrencing the part of the page and getting it to look good and how I wanted
+it to look
+*/
+
+body {
+	background-color: #f4f1eb;
+	border-radius: 5px;
+	box-shadow: 0 0 15px gray;
+}
+
+
+h1 {
+	font-size: 48px;
+	margin-left: 20%;
+
+
+}
+
+#searchdiv {
+	display: flex;
+
+}
+
+#temp {
+	margin-left: 20%;
+	display: inline-block;
+
+} 
+
+#stockInfo {
+	margin-left: 25%;
+	font-size: 24px;
+
+
+}
+
+#watchlist {
+	margin-top: -7%;
+	font-size: 24px;
+	margin-left: 15%;
+	border-width: 150px;
+	border-radius: 5px;
+
+
+	
+
+}
