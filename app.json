@@ -1,0 +1,14 @@
+{
+  "name": "gunnar-samuelson-final-project",
+  "version": "1.0.0",
+  "description": "Stock info app made by mee",
+  "repository": "https://github.com/heroku/gunnar-samuelson-final-project",
+  "logo": "https://rawgit.com/heroku/gunnar-samuelson-final-project/master/public/node.svg",
+  "keywords": ["node", "express", "static"],
+  "main": "stock337.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gunnar Samuelson",
+  "license": "ISC"
+}
