@@ -13,7 +13,7 @@ window.onload = function() {
 
 function submit() {
 	let stockID = document.getElementById("ticker").value;
-	let url = "http://localhost:3000?stock=" + stockID;
+	let url = "http://gunnar-samuelson-final-project.herokuapp.com?stock=" + stockID;
 	fetch(url)
 		.then(checkStatus)
 		.then(function(responseText) {
